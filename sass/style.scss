@@ -1,5 +1,5 @@
 $font-primary: 'Quicksand', Arial, sans-serif;
-$font-secondary: 'Playfair Display', Georgia, serif;
+$font-secondary: 'Quicksand', Arial, sans-serif;
 
 // Overrides
 $grid-gutter-width: 40px !default; 
@@ -358,7 +358,7 @@ figure {
 	background: $brand-white no-repeat center center;
 	width: 100%;
 	float: left;
-	margin-bottom: 10em;
+	margin-bottom: 8em;
 	clear: both;
 	.flexslider {
 		border: none;
@@ -525,7 +525,7 @@ body {
 .colorlib-services,
 .colorlib-contact{
 	padding-top: 4em;
-	padding-bottom: 9em;
+	padding-bottom: 1em;
 	clear: both;
 	width: 100%;
 	display: block;
@@ -548,7 +548,7 @@ body {
 
 .colorlib-heading {
 	font-size: 18px;
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
