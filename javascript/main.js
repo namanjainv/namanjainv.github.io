@@ -264,8 +264,6 @@
 
 		$('.sticky-parent').css('height', h);
 
-		$("#sticky_item").stick_in_parent();
-
 	};
 
 	var owlCrouselFeatureSlide = function() {
