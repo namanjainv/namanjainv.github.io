@@ -624,8 +624,9 @@ body.offcanvas {
   font-size: 16px; }
 
 .services {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   padding: 1.5em;
+  text-align: center;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -636,7 +637,7 @@ body.offcanvas {
     display: block;
     margin-bottom: 20px; }
     .services .icon2 i {
-      font-size: 30px;
+      font-size: 35px;
       color: #2c98f0; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
@@ -915,7 +916,7 @@ body.offcanvas {
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-        font-size: 28px; } }
+        font-size: 40px; } }
 
 .blog-entry {
   width: 100%;
