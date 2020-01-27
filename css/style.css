@@ -1505,7 +1505,7 @@ body.offcanvas {
   vertical-align: middle;
   line-height: 6;
 }
-.skill-tile-content:hover {
+.skill-tile:hover {
   font-weight: 530;
 }
 
