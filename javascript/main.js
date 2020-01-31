@@ -36,6 +36,17 @@
 
 	};
 
+	var maxHeight = function() {
+
+		if ( !isMobile.any() ) {
+			$('.js-maxHeight').css('height', $(window).height()*0.87);
+			$(window).resize(function(){
+				$('.js-maxHeight').css('height', $(window).height()*0.87);
+			});
+		}
+
+	};
+
 
 	var counter = function() {
 		$('.js-counter').countTo({
@@ -287,6 +298,7 @@
 	// Document on load.
 	$(function(){
 		fullHeight();
+		maxHeight();
 		counter();
 		counterWayPoint();
 		contentWayPoint();

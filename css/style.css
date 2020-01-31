@@ -192,6 +192,7 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
+    visibility: hidden;
     width: 100%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
@@ -235,7 +236,7 @@ figure {
   background: #fff no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 8em;
+  margin-bottom: 3em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -390,7 +391,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 1em;
   clear: both;
   width: 100%;
@@ -661,7 +662,7 @@ body.offcanvas {
     border-bottom: 2px solid #4054b2; }
 
 .services {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   position: relative;
   z-index: 0; }
   @media screen and (max-width: 768px) {
