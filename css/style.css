@@ -457,19 +457,75 @@ body.offcanvas {
   height: 408px;
 }
 
+.recommendation-user {
+  margin: 2px;
+  display: inline-block;
+}
+
+.recommendation-header {
+  display: -moz-inline-grid;
+  display: inline-grid;
+  display: -ms-inline-grid;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.recommendation-user-image {
+  border-radius: 50%;
+  position: relative;
+}
+
+.recommendation-comment {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: inherit;
+  text-align: justify;
+  overflow-y: scroll;
+  height: 240px;
+  border-top: 2px solid #477475;
+  padding-right: 15px;
+  padding-left: 10px;
+  margin-top: 4px;
+}
+
+.recommendation-user-name {
+  color: #477475;
+}
+
 .carousel-box {
   padding: 15px;
   padding-left: 35px;
   padding-right: 35px;
-  height: 88.5%;
+  height: 100%;
   border-bottom: 2px solid #477475;
   color: black;
+
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
 }
 
 .carousel-control.left, .carousel-control.right {
   background-image:none !important;
   filter:none !important;
   color: #477475;
+  writing-mode: vertical-lr;
+  text-align: center;
+}
+
+.carousel-control.right {
+  padding-left: 20px;
+}
+
+.carousel-header {
+  color: #477475;
+  font-size: 15px;
+}
+
+.carousel-body {
+  margin: 5px;
 }
 
 .hire {
