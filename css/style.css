@@ -455,7 +455,9 @@ body.offcanvas {
 
 .recommendations {
   height: 408px;
-}
+} @media screen and (max-width: 768px) {
+    .recommendations {
+      height: 520px; } }
 
 .recommendation-user {
   margin: 2px;
@@ -486,7 +488,9 @@ body.offcanvas {
   padding-right: 15px;
   padding-left: 10px;
   margin-top: 4px;
-}
+} @media screen and (max-width: 768px) {
+  .recommendation-comment {
+    height: 320px; } }
 
 .recommendation-user-name {
   color: #477475;
