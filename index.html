@@ -124,7 +124,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   				<div class="slider-text-inner js-maxHeight">
 					   					<div class="desc" style="padding-top: 300px;">
 						   					<h1 style="color: white">Hi! <br>I'm Naman</h1>
-												<p><a class="btn btn-primary btn-learn" style="color: white" target="_blank" href="https://drive.google.com/file/d/1-ozRhPVqc7WPoah_sr7xH_nywLqymW2M/view?usp=sharing" download>Download CV <i class="icon-download4"></i></a></p>
+												<p><a class="btn btn-primary btn-learn" style="color: white" target="_blank"  
+													onclick='captureOutboundLink("Resume")'
+													href="https://drive.google.com/file/d/1-ozRhPVqc7WPoah_sr7xH_nywLqymW2M/view?usp=sharing" download>Download CV <i class="icon-download4"></i></a></p>
 										</div>
 					   				</div>
 					   			</div>
@@ -896,7 +898,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 
-							<a href="https://namanjainv.github.io/covid19/" target="_blank"> 
+							<a onclick='captureOutboundLink("Covid19")' href="https://namanjainv.github.io/covid19/" target="_blank"> 
 								<div class="project" style="background-image: url(images/Covid19-Tracker.png);">
 									<div class="desc">
 										<div class="con">
@@ -906,7 +908,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<span> Website </span>
 											<p class="icon">
 												<span><a></a></span>
-												<span><a href="https://github.com/namanjainv/covid19" target="_blank"><i class="icon-code"></i> </a></span>
+												<span><a onclick='captureOutboundLink("Covid19-Github")' href="https://github.com/namanjainv/covid19" target="_blank"><i class="icon-code"></i> </a></span>
 											</p>
 										</div>
 									</div>
@@ -1141,6 +1143,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	<!-- MAIN JS -->
 	<script src="javascript/main.js"></script>
+
+	<script>
+		/**
+		* Function that captures a click on an outbound link in Analytics.
+		* This function takes a valid URL string as an argument, and uses that URL string
+		* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+		* using 'navigator.sendBeacon' in browser that support it.
+		*/
+		var captureOutboundLink = function(type) {
+  			gtag('event', type, { 
+				'app_name': 'myAppName',
+				'screen_name': 'Home' });
+			}
+	</script>
 
 	</body>
 </html>
