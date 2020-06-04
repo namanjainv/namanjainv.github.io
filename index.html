@@ -92,9 +92,12 @@
 
 			<div class="social-network">
 				<p> 
-					<a href="https://www.linkedin.com/in/namanjainv/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"> </i> </a> | 
-					<a href="https://github.com/namanjainv" target="_blank"> <i class="fa fa-github" aria-hidden="true"> </i> </a> | 
-					<a href="https://twitter.com/vnamanjain" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"> </i> </a> 
+					<a onclick='captureOutboundLink("Contact", "LinkedIn")' 
+						href="https://www.linkedin.com/in/namanjainv/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"> </i> </a> | 
+					<a onclick='captureOutboundLink("Contact", "Github")' 
+						href="https://github.com/namanjainv" target="_blank"> <i class="fa fa-github" aria-hidden="true"> </i> </a> | 
+					<a onclick='captureOutboundLink("Contact", "Twitter")' 
+						href="https://twitter.com/vnamanjain" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"> </i> </a> 
 				</p>
 			</div>
 
@@ -125,7 +128,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   					<div class="desc" style="padding-top: 300px;">
 						   					<h1 style="color: white">Hi! <br>I'm Naman</h1>
 												<p><a class="btn btn-primary btn-learn" style="color: white" target="_blank"  
-													onclick='captureOutboundLink("Resume")'
+													onclick='captureOutboundLink("Contact", "Resume")'
 													href="https://drive.google.com/file/d/1-ozRhPVqc7WPoah_sr7xH_nywLqymW2M/view?usp=sharing" download>Download CV <i class="icon-download4"></i></a></p>
 										</div>
 					   				</div>
@@ -199,7 +202,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 													<div class="item active">
 														<div class="recommendation-header">
-															<a href="https://www.linkedin.com/in/alisharifara/"> <span class="recommendation-user-name"> Ali Sharifara </span> </a>
+															<a onclick='captureOutboundLink("LinkedIn People", "Ali Sharifara")' href="https://www.linkedin.com/in/alisharifara/"> <span class="recommendation-user-name"> Ali Sharifara </span> </a>
 															<span class="recommendation-user-position"> Professor, UTA </span>
 														</div>
 														<div class="recommendation-comment">
@@ -208,7 +211,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													</div>
 													<div class="item">
 														<div class="recommendation-header">
-															<a href="https://www.linkedin.com/in/kiran-surthi-7833bb9/"> <span class="recommendation-user-name"> Kiran Surthi </span> </a>
+															<a onclick='captureOutboundLink("LinkedIn People", "Kiran Surthi")' href="https://www.linkedin.com/in/kiran-surthi-7833bb9/"> <span class="recommendation-user-name"> Kiran Surthi </span> </a>
 															<span class="recommendation-user-position"> Senior Software Engineer, E2Open </span>
 														</div>
 														<div class="recommendation-comment">
@@ -217,7 +220,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													</div>
 													<div class="item">
 														<div class="recommendation-header">
-															<a href="https://www.linkedin.com/in/rui-yang-955259ab/"> <span class="recommendation-user-name"> Rui Yang </span> </a>
+															<a onclick='captureOutboundLink("LinkedIn People", "Rui Yang")' href="https://www.linkedin.com/in/rui-yang-955259ab/"> <span class="recommendation-user-name"> Rui Yang </span> </a>
 															<span class="recommendation-user-position"> Software Engineer, E2Open </span>
 														</div>
 													  	<div class="recommendation-comment">
@@ -226,7 +229,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													</div>
 													<div class="item">
 														<div class="recommendation-header">
-															<a href="https://www.linkedin.com/in/venkatesh-vijayasarathy-62a92118/"> <span class="recommendation-user-name"> Venkatesh Vijayasarathy </span> </a>
+															<a onclick='captureOutboundLink("LinkedIn People", "Venkatesh Vijayasarathy")' href="https://www.linkedin.com/in/venkatesh-vijayasarathy-62a92118/"> <span class="recommendation-user-name"> Venkatesh Vijayasarathy </span> </a>
 															<span class="recommendation-user-position"> Solution Architect, Genisys Group </span>
 														</div>
 														<div class="recommendation-comment">
@@ -235,7 +238,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													</div>
 													<div class="item">
 														<div class="recommendation-header">
-															<a href="https://www.linkedin.com/in/abhishek-dixit-62a9b5b6/"> <span class="recommendation-user-name"> Abhishek Dixit </span> </a>
+															<a onclick='captureOutboundLink("LinkedIn People", "Abhishek Dixit")' href="https://www.linkedin.com/in/abhishek-dixit-62a9b5b6/"> <span class="recommendation-user-name"> Abhishek Dixit </span> </a>
 															<span class="recommendation-user-position"> Software Developer, Genisys Group </span>
 														</div>
 														<div class="recommendation-comment">
@@ -245,7 +248,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													</div>
 													<div class="item">
 														<div class="recommendation-header">
-															<a href="https://www.linkedin.com/in/ajay-mohandas/"> <span class="recommendation-user-name"> Ajay Mohandas </span> </a>
+															<a onclick='captureOutboundLink("LinkedIn People", "Ajay Mohandas")' href="https://www.linkedin.com/in/ajay-mohandas/"> <span class="recommendation-user-name"> Ajay Mohandas </span> </a>
 															<span class="recommendation-user-position"> Software Developer, E2Open </span>
 														</div>
 														<div class="recommendation-comment">
@@ -655,18 +658,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 															Secured a GPA of <strong> 3.91 </strong> on 4.00 <br />
 															Curriculum:
 															<ul>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/design-and-analysis-of-algorithms" target="_blank"> Design and Analysis of Algorithms </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/data-analysis-and-modelling-techniques" target="_blank"> Data Analysis and Modelling Techniques </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv" target="_blank"> Advanced Computational Models and Algorithm </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/database-systems" target="_blank"> Database Systems </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/data-mining" target="_blank"> Data Mining </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/cloud-computing" target="_blank"> Cloud Computing </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/artificial-intelligence" target="_blank"> Artificial Intelligence - 1 </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/neural-networks" target="_blank"> Neural Networks </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/machine-learning" target="_blank"> Machine Learning </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/computer-graphics" target="_blank"> Computer Graphics </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/game-design" target="_blank"> Game Design </a> </li>
-																<li> <a class="list-anchor" href="https://github.com/namanjainv/computer-vision" target="_blank"> Computer Vision </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "design-and-analysis-of-algorithms")'
+																		href="https://github.com/namanjainv/design-and-analysis-of-algorithms" target="_blank"> Design and Analysis of Algorithms </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "data-analysis-and-modelling-techniques")'
+																		href="https://github.com/namanjainv/data-analysis-and-modelling-techniques" target="_blank"> Data Analysis and Modelling Techniques </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "advanced-computational-models-and-algorithm")'
+																		href="https://github.com/namanjainv/advanced-computational-models-and-algorithm" target="_blank"> Advanced Computational Models and Algorithm </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "database-systems")'
+																		href="https://github.com/namanjainv/database-systems" target="_blank"> Database Systems </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "data-mining")'
+																		href="https://github.com/namanjainv/data-mining" target="_blank"> Data Mining </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "cloud-computing")'
+																		href="https://github.com/namanjainv/cloud-computing" target="_blank"> Cloud Computing </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "artificial-intelligence")'
+																		href="https://github.com/namanjainv/artificial-intelligence" target="_blank"> Artificial Intelligence - 1 </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "neural-networks")'
+																		href="https://github.com/namanjainv/neural-networks" target="_blank"> Neural Networks </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "machine-learning")'
+																		href="https://github.com/namanjainv/machine-learning" target="_blank"> Machine Learning </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "computer-graphics")'
+																		href="https://github.com/namanjainv/computer-graphics" target="_blank"> Computer Graphics </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "game-design")'
+																		href="https://github.com/namanjainv/game-design" target="_blank"> Game Design </a> </li>
+																<li> <a class="list-anchor" onclick='captureOutboundLink("Github", "computer-vision")' 
+																		href="https://github.com/namanjainv/computer-vision" target="_blank"> Computer Vision </a> </li>
 															</ul>
 														</p>  
 													</div>
@@ -898,7 +913,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 
-							<a onclick='captureOutboundLink("Covid19")' href="https://namanjainv.github.io/covid19/" target="_blank"> 
+							<a onclick='captureOutboundLink("Work", "COVID 19")' href="https://namanjainv.github.io/covid19/" target="_blank"> 
 								<div class="project" style="background-image: url(images/Covid19-Tracker.png);">
 									<div class="desc">
 										<div class="con">
@@ -908,7 +923,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<span> Website </span>
 											<p class="icon">
 												<span><a></a></span>
-												<span><a onclick='captureOutboundLink("Covid19-Github")' href="https://github.com/namanjainv/covid19" target="_blank"><i class="icon-code"></i> </a></span>
+												<span><a onclick='captureOutboundLink("Github", "covid19")' 
+													href="https://github.com/namanjainv/covid19" target="_blank"><i class="icon-code"></i> </a></span>
 											</p>
 										</div>
 									</div>
@@ -1062,7 +1078,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="mailto:namanjain.vimalkumar@gmail.com">namanjain.vimalkumar@gmail.com</a></p>
+									<p><a onclick='captureOutboundLink("Contact", "mail")' 
+										href="mailto:namanjain.vimalkumar@gmail.com">namanjain.vimalkumar@gmail.com</a></p>
 								</div>
 							</div>
 
@@ -1080,7 +1097,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel:+16824145873">+1 682 414 5873</a></p>
+									<p><a  onclick='captureOutboundLink("Contact", "phone")' 
+										href="tel:+16824145873">+1 682 414 5873</a></p>
 								</div>
 							</div>
 						</div>
@@ -1151,11 +1169,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		* as the event label. Setting the transport method to 'beacon' lets the hit be sent
 		* using 'navigator.sendBeacon' in browser that support it.
 		*/
-		var captureOutboundLink = function(type) {
-  			gtag('event', type, { 
-				'app_name': 'myAppName',
-				'screen_name': 'Home' });
-			}
+		var captureOutboundLink = function(category, type) {
+  			gtag('event', category, { 
+				'type': type,
+				'timestamp': new Date().toISOString()
+			});
+		}
 	</script>
 
 	</body>
