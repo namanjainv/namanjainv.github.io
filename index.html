@@ -1170,7 +1170,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		* using 'navigator.sendBeacon' in browser that support it.
 		*/
 		var captureOutboundLink = function(category, type) {
-  			gtag('event', category, type);
+  			gtag('event', category, { 
+				'type': type,
+				// 'timestamp': new Date().toISOString()
+			});
 		}
 	</script>
 
